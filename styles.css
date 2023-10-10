@@ -1,3 +1,11 @@
 body{
     background-color: blueviolet;
 }
+
+.container {
+    width: 90%;
+    max-width: 38em;
+    background-color: #fff;
+    padding: 3em 0.5em;
+    position: absolute;
+}
