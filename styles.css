@@ -2,10 +2,24 @@ body{
     background-color: blueviolet;
 }
 
+h3{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 2em auto;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 2em;
+    color: darkblue;
+}
+
 .container {
     width: 90%;
     max-width: 38em;
     background-color: #fff;
     padding: 3em 0.5em;
     position: absolute;
+}
+
+.draggable-objects, .drop-points{
+    display: flex;
 }
